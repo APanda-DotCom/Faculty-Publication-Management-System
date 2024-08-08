@@ -1,0 +1,42 @@
+.card {
+    border: none;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
+  
+  .card-body {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card img {
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+  
+  .card-text a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .card-text a:hover {
+    text-decoration: underline;
+  }
+  
+  .fa-linkedin,
+  .fa-twitter,
+  .fa-facebook,
+  .fa-instagram {
+    font-size: 1.25rem;
+  }
+  
+  .text-dark {
+    color: #343a40 !important;
+  }
+  
